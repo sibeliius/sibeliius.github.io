@@ -1,0 +1,20 @@
+@font-face {font-family: ThaleahFat; src: url('/assets/ThaleahFat_TTF.ttf')}
+
+body {
+    background-color: #2a1a2c;
+    cursor: none;
+    font-family: ThaleahFat;
+    color: bisque;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.cursor {
+    width: 6px;
+    height: 6px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
