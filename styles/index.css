@@ -3,6 +3,7 @@
 body {
     background-color: #2a1a2c;
     cursor: none;
+    height: 100vh;
     font-family: ThaleahFat;
     color: bisque;
     text-align: center;
