@@ -1,4 +1,9 @@
-const cursor = document.querySelector('.cursor');
+const cursor = document.querySelector('#cursor');
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) 
+{
+  cursor.classList.remove('cursor');
+}
 
 const positionElement = (e) => {
   const mouseY = e.clientY;
