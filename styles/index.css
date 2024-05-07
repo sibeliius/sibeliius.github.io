@@ -1,6 +1,7 @@
 @font-face {font-family: ThaleahFat; src: url('/assets/ThaleahFat_TTF.ttf')}
 
 body {
+    overflow-x: hidden;
     background-color: #2a1a2c;
     cursor: none;
     height: 100vh;
